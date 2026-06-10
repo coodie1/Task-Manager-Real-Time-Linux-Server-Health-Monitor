@@ -1,0 +1,23 @@
+# Build outputs
+server_monitor
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+
+# Logs and generated reports
+logs/*.log
+reports/report_*.txt
+
+# Temporary/editor files
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
